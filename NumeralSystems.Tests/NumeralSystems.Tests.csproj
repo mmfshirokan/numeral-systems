@@ -22,6 +22,6 @@
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\NumeralSystems\NumeralSystems .csproj" />
+      <ProjectReference Include="..\NumeralSystems\NumeralSystems.csproj" />
     </ItemGroup>
 </Project>
