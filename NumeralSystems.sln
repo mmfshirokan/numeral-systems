@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystems.Tests", "NumeralSystems.Tests\NumeralSystems.Tests.csproj", "{A11F926D-6EA3-4A40-B4BF-1985E13E4CB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystems ", "NumeralSystems\NumeralSystems .csproj", "{96F30F13-2706-40C2-8FCB-7F5B78013190}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystems", "NumeralSystems\NumeralSystems.csproj", "{75F4B210-ABC4-49B7-999F-D2B1892DB588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{A11F926D-6EA3-4A40-B4BF-1985E13E4CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A11F926D-6EA3-4A40-B4BF-1985E13E4CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A11F926D-6EA3-4A40-B4BF-1985E13E4CB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96F30F13-2706-40C2-8FCB-7F5B78013190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96F30F13-2706-40C2-8FCB-7F5B78013190}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96F30F13-2706-40C2-8FCB-7F5B78013190}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96F30F13-2706-40C2-8FCB-7F5B78013190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F4B210-ABC4-49B7-999F-D2B1892DB588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F4B210-ABC4-49B7-999F-D2B1892DB588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F4B210-ABC4-49B7-999F-D2B1892DB588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F4B210-ABC4-49B7-999F-D2B1892DB588}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
