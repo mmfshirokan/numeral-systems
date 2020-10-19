@@ -37,11 +37,6 @@ namespace NumeralSystems.Tests
         [TestCase(int.MaxValue, 16, ExpectedResult = "7FFFFFFF")]
         public string GetPositiveRadix_Tests(int number, int radix) => number.GetPositiveRadix(radix);
 
-        [TestCase(-3, 2, ExpectedResult = "11111111111111111111111111111101")]
-        [TestCase(-127, 2, ExpectedResult = "11111111111111111111111110000001")]
-        [TestCase(-675432, 2, ExpectedResult = "11111111111101011011000110011000")]
-        [TestCase(-1908345, 2, ExpectedResult = "11111111111000101110000110000111")]
-        [TestCase(int.MinValue, 2, ExpectedResult = "10000000000000000000000000000000")]
         [TestCase(-3, 8, ExpectedResult = "37777777775")]
         [TestCase(-127, 8, ExpectedResult = "37777777601")]
         [TestCase(-675432, 8, ExpectedResult = "37775330630")]
