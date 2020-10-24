@@ -10,16 +10,16 @@ _Restriction: Don't use Framework's converter classes, use only use only the cap
 _Note: For signed integers their string representation is determined by binary representation in ._
 _For example:_      
 _Base 16 conversion_
-- -2147483648      -->  80000000     
-- -19327543        -->  FED915C9    
-- -13621           -->  FFFFCACB    
-- -18              -->  FFFFFFEE    
-- 12               -->  C     
-- 2147483647       -->  7FFFFFFF   
+- -2147483648       ->  80000000     
+- -19327543         ->  FED915C9    
+- -13621            ->  FFFFCACB    
+- -18               ->  FFFFFFEE    
+- 12                ->  C     
+- 2147483647        ->  7FFFFFFF   
 _Base 8 conversion_      
-- -2147483648      -->  20000000000
-- -19327543        -->  37666212711
-- -13621           -->  37777745313
-- -18              -->  37777777756
-- 12               -->  14
-- 2147483647       -->  17777777777    
+- -2147483648       ->  20000000000
+- -19327543         ->  37666212711
+- -13621            ->  37777745313
+- -18               ->  37777777756
+- 12                ->  14
+- 2147483647        ->  17777777777    
