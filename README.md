@@ -9,19 +9,17 @@ The task definition is given in the XML-comments for the methods.
 _Restriction: Don't use Framework's converter classes, use only use only the capabilities of the C# language._     
 _Note: For negative integers their string representation is determined by binary representation in the additional code._
 _For example:_      
->   Base 16 conversion
->   -2147483648      -->  0x80000000
->   -19327543        -->  0xfed915c9
->   -13621           -->  0xffffcacb
->   -18              -->  0xffffffee
->   12               -->  0xc
->   19142            -->  0x4ac6
->   2147483647       -->  0x7fffffff
->   Base 8 conversion
->   -2147483648      -->  0x20000000000
->   -19327543        -->  0x37666212711
->   -13621           -->  0x37777745313
->   -18              -->  0x37777777756
->   12               -->  0x14
->   19142            -->  0x45306
->   2147483647       -->  0x17777777777    
+_Base 16 conversion_
+- -2147483648      -->  80000000     
+- -19327543        -->  FED915C9    
+- -13621           -->  FFFFCACB    
+- -18              -->  FFFFFFEE    
+- 12               -->  C     
+- 2147483647       -->  7FFFFFFF   
+_Base 8 conversion_      
+- -2147483648      -->  20000000000
+- -19327543        -->  37666212711
+- -13621           -->  37777745313
+- -18              -->  37777777756
+- 12               -->  14
+- 2147483647       -->  17777777777    
