@@ -5,5 +5,6 @@
 - Implement a [GetPositiveHex](NumeralSystems/Converter.cs#L29) extention method that gets the value of a positive integer to its equivalent string representation in the hexadecimal numeral systems.
 - Implement a [GetPositiveRadix](NumeralSystems/Converter.cs#L39) extention method that gets the value of a positive integer to its equivalent string representation in a specified radix.
 - Implement a [GetRadix](NumeralSystems/Converter.cs#L48) extention method that gets the value of a signed integer to its equivalent string representation in a specified radix.    
-The task definition is given in the XML-comments for the methods.   
-_Restriction: Don't use Framework's converter classes, use only use only the capabilities of the C# language._
+The task definition is given in the XML-comments for the methods.     
+_Restriction: Don't use Framework's converter classes, use only use only the capabilities of the C# language._     
+_Note: For negative integers their string representation is determined by binary representation in the additional code._    
