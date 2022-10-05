@@ -37,6 +37,7 @@ namespace NumeralSystems
         {
             return GetPositiveRadix(number, 16);
         }
+
         /// <summary>
         /// Gets the value of a positive integer to its equivalent string representation in a specified radix.
         /// </summary>
@@ -69,16 +70,12 @@ namespace NumeralSystems
                 throw new ArgumentException("is 8, 10 and 16 only.");
             }
 
-            uint numberCopy;
-            numberCopy = (uint)number;
+            uint numberCopy = (uint)number;
             string alphabet = "0123456789ABCDEF";
             StringBuilder radixNum = new StringBuilder();
-            byte rem = 0;
             while (numberCopy > 0)
             {
-                rem = (byte)(numberCopy % radix);
-
-                radixNum.Insert(0, alphabet[rem]);
+                radixNum.Insert(0, alphabet[(byte)(numberCopy % radix)]);
                 numberCopy /= (uint)radix;
             }
 
